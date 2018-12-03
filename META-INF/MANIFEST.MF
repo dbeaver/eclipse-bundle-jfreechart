@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: JFreeChart bundle
+Bundle-SymbolicName: org.jkiss.bundle.jfreechart;singleton:=true
+Bundle-Version: 1.0.19
+Bundle-ClassPath: lib/jcommon-1.0.23.jar,
+ lib/jfreechart-1.0.19.jar,
+ lib/jfreechart-swt-1.0.jar,
+ lib/swtgraphics2d-1.0.jar,
+ .
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: DBeaver Corp
+Eclipse-BundleShape: dir
+Export-Package: org.jfree.chart,
+ org.jfree.chart.swt,
+ org.jfree.chart.swt.editor
