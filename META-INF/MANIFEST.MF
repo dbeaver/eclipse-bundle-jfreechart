@@ -11,6 +11,13 @@ Bundle-ClassPath: lib/jcommon-1.0.23.jar,
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-Vendor: DBeaver Corp
 Eclipse-BundleShape: dir
+Import-Package: org.eclipse.swt,
+ org.eclipse.swt.events,
+ org.eclipse.swt.graphics,
+ org.eclipse.swt.layout,
+ org.eclipse.swt.widgets
 Export-Package: org.jfree.chart,
  org.jfree.chart.swt,
- org.jfree.chart.swt.editor
+ org.jfree.chart.swt.editor,
+ org.jfree.data,
+ org.jfree.data.category
