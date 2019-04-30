@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: JFreeChart bundle
 Bundle-SymbolicName: org.jkiss.bundle.jfreechart;singleton:=true
-Bundle-Version: 1.0.19
+Bundle-Version: 1.0.20
 Bundle-ClassPath: lib/jcommon-1.0.23.jar,
  lib/jfreechart-1.0.19.jar,
  lib/jfreechart-swt-1.0.jar,
